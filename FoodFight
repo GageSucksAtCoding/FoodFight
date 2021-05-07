@@ -1,0 +1,29 @@
+menu = {
+  "Milkshake" : 340,
+  "Banana Pancake" : 970,
+  "Double Patty Burger" : 770,
+  "Root Beer Float" : 160,
+  "Battle Pass" : 9000,
+  "Lettuce Burger" : 60,
+  "Burgerham" : 250,
+  "Grenade" : 0,
+  "Da Waffles" : 300,
+  "Pancakes" : 278,
+  "Food with a side of food" : 458,
+  "Almond Juice" : 50,
+  "Chase" : 118,
+  "Mother" : 500,
+  "Annoying Sibling" : 260
+}
+print("WELCOME TO STEAK N CAKE")
+print(menu)
+choice1 = input("Choice #1 >> ")
+choice2 = input("Choice #2 >> ")
+choice3 = input("Choice #3 >> ")
+
+print(choice1, menu[choice1])
+print(choice2, menu[choice2])
+print(choice3, menu[choice3])
+
+totalCalories = menu[choice1] + menu[choice2] + menu[choice3]
+print("Total Calories >> ", totalCalories)
